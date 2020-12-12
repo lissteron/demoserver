@@ -1,0 +1,17 @@
+run:
+  tests: false
+linters:
+  enable-all: true
+  disable:
+    - godot
+    - gci
+    - exhaustivestruct
+  fast: false
+linters-settings:
+  gocritic:
+    enabled-tags:
+      - style
+      - experimental
+      - performance
+      - diagnostic
+      - opinionated
